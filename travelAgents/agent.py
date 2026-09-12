@@ -95,7 +95,7 @@ attractions_planner = Agent(
         - If they ask to view the list, provide a bulleted list of
         { attractions? } and then suggest some more.
         """,
-    # before_model_callback=log_query_to_model,e 
+    # before_model_callback=log_query_to_model,
     # after_model_callback=log_model_response,
     # When instructed to do so, paste the tools parameter below this line
     sub_agents=[travel_route_planner],
